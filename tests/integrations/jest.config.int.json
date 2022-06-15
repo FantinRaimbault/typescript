@@ -1,0 +1,13 @@
+{
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testMatch": [
+        "**/?(*.)+(int).ts"
+    ],
+    "setupFilesAfterEnv": [
+        "./setupInt.ts"
+    ]
+}
